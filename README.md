@@ -2,7 +2,7 @@
 Business Case: 
 A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
 
-The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+The company is looking at prospective properties to buy to enter the market. We are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 
 The company wants to know:
 
@@ -11,10 +11,10 @@ How well those variables describe the price of a house.
 Also, determine the optimal value of lambda for ridge and lasso regression.
 Mainly Case Study Data Analysis include below steps:
 
-Data Understanding and Exploration
-Data Cleaning
-Data Preparation
-Model building and Evaluation
+* Data Understanding and Exploration
+* Data Cleaning
+* Data Preparation
+* Model building and Evaluation
 
 
 ## Table of Contents
@@ -34,12 +34,12 @@ Model building and Evaluation
 ## Conclusions
 From the above analysis, Lasso Regression Model is better fit comparatively then Ridge Regression Model.
 Most important predictor variables after the change are implemented are:
-GrLivArea: Above grade (ground) living area square feet
-OverallQual: Rates the overall material and finish of the house
-TotalBsmtSF: Total square feet of basement area
-BsmtFinSF1: Type 1 finished square feet
-GarageCars: Size of garage in car capacity
-SaleType: Type of sale
+1. GrLivArea: Above grade (ground) living area square feet
+2. OverallQual: Rates the overall material and finish of the house
+3. TotalBsmtSF: Total square feet of basement area
+4. BsmtFinSF1: Type 1 finished square feet
+5. GarageCars: Size of garage in car capacity
+6. SaleType: Type of sale
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
